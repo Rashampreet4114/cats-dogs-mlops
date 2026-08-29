@@ -1,0 +1,13 @@
+-r requirements-api.txt
+
+mlflow==2.18.0
+scikit-learn==1.5.2
+matplotlib==3.9.3
+pandas==2.2.3
+tqdm==4.67.1
+kaggle==1.6.17
+dvc==3.58.0
+
+pytest==8.3.4
+httpx==0.28.1
+requests==2.34.2

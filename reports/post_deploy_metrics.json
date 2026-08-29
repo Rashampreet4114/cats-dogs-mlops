@@ -1,0 +1,2009 @@
+{
+  "timestamp": "2026-08-29T13:05:44",
+  "api_url": "http://localhost:8000",
+  "total_requests": 200,
+  "correct": 176,
+  "accuracy": 0.88,
+  "predictions": [
+    {
+      "file": "cat.1000.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9931,
+        "dog": 0.0069
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1001.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.953,
+        "dog": 0.047
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.101.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9462,
+        "dog": 0.0538
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1013.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9797,
+        "dog": 0.0203
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1021.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.7974,
+        "dog": 0.2026
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1024.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9903,
+        "dog": 0.0097
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1031.jpg",
+      "true_label": "cat",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.4429,
+        "dog": 0.5571
+      },
+      "correct": false
+    },
+    {
+      "file": "cat.1039.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9904,
+        "dog": 0.0096
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1046.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9781,
+        "dog": 0.0219
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1050.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.8391,
+        "dog": 0.1609
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1056.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9978,
+        "dog": 0.0022
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1067.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.8761,
+        "dog": 0.1239
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1069.jpg",
+      "true_label": "cat",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.4074,
+        "dog": 0.5926
+      },
+      "correct": false
+    },
+    {
+      "file": "cat.107.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9793,
+        "dog": 0.0207
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1083.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9192,
+        "dog": 0.0808
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1106.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9373,
+        "dog": 0.0627
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1141.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9989,
+        "dog": 0.0011
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1152.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.7799,
+        "dog": 0.2201
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1153.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9773,
+        "dog": 0.0227
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1163.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9355,
+        "dog": 0.0645
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1172.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.8022,
+        "dog": 0.1978
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1179.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9909,
+        "dog": 0.0091
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1181.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9858,
+        "dog": 0.0142
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1182.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9441,
+        "dog": 0.0559
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1192.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.8446,
+        "dog": 0.1554
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1194.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.996,
+        "dog": 0.004
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1201.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9746,
+        "dog": 0.0254
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1206.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.981,
+        "dog": 0.019
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1218.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9962,
+        "dog": 0.0038
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.123.jpg",
+      "true_label": "cat",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.4017,
+        "dog": 0.5983
+      },
+      "correct": false
+    },
+    {
+      "file": "cat.1232.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.7811,
+        "dog": 0.2189
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1234.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9375,
+        "dog": 0.0625
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1264.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.8542,
+        "dog": 0.1458
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1269.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.5084,
+        "dog": 0.4916
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1280.jpg",
+      "true_label": "cat",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.4263,
+        "dog": 0.5737
+      },
+      "correct": false
+    },
+    {
+      "file": "cat.1284.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9661,
+        "dog": 0.0339
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1287.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9986,
+        "dog": 0.0014
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1291.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9954,
+        "dog": 0.0046
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1292.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9774,
+        "dog": 0.0226
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1293.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9731,
+        "dog": 0.0269
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1306.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9852,
+        "dog": 0.0148
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1318.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9168,
+        "dog": 0.0832
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1323.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9322,
+        "dog": 0.0678
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1325.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.971,
+        "dog": 0.029
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1336.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9788,
+        "dog": 0.0212
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1339.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9929,
+        "dog": 0.0071
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.134.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9503,
+        "dog": 0.0497
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1345.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9976,
+        "dog": 0.0024
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1368.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9328,
+        "dog": 0.0672
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1371.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9947,
+        "dog": 0.0053
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1372.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9988,
+        "dog": 0.0012
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1373.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.6521,
+        "dog": 0.3479
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1380.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.909,
+        "dog": 0.091
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1397.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9409,
+        "dog": 0.0591
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1398.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9871,
+        "dog": 0.0129
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.141.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9384,
+        "dog": 0.0616
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1410.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.999,
+        "dog": 0.001
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1417.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9839,
+        "dog": 0.0161
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.142.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9347,
+        "dog": 0.0653
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1425.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.8699,
+        "dog": 0.1301
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.143.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.8942,
+        "dog": 0.1058
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1430.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9909,
+        "dog": 0.0091
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1432.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9955,
+        "dog": 0.0045
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1445.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.986,
+        "dog": 0.014
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1448.jpg",
+      "true_label": "cat",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.4795,
+        "dog": 0.5205
+      },
+      "correct": false
+    },
+    {
+      "file": "cat.1455.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9923,
+        "dog": 0.0077
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1458.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.6944,
+        "dog": 0.3056
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1467.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.995,
+        "dog": 0.005
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1470.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.989,
+        "dog": 0.011
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1487.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9871,
+        "dog": 0.0129
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1491.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.922,
+        "dog": 0.078
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1496.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9788,
+        "dog": 0.0212
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.15.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9652,
+        "dog": 0.0348
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1503.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.994,
+        "dog": 0.006
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1505.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9354,
+        "dog": 0.0646
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1508.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9586,
+        "dog": 0.0414
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.151.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9638,
+        "dog": 0.0362
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1510.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9831,
+        "dog": 0.0169
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1514.jpg",
+      "true_label": "cat",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1606,
+        "dog": 0.8394
+      },
+      "correct": false
+    },
+    {
+      "file": "cat.1520.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9767,
+        "dog": 0.0233
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1521.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9044,
+        "dog": 0.0956
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1524.jpg",
+      "true_label": "cat",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.3103,
+        "dog": 0.6897
+      },
+      "correct": false
+    },
+    {
+      "file": "cat.1527.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9231,
+        "dog": 0.0769
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1533.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9676,
+        "dog": 0.0324
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1535.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9979,
+        "dog": 0.0021
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1538.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9962,
+        "dog": 0.0038
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1539.jpg",
+      "true_label": "cat",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.4055,
+        "dog": 0.5945
+      },
+      "correct": false
+    },
+    {
+      "file": "cat.1540.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9721,
+        "dog": 0.0279
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1553.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9941,
+        "dog": 0.0059
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1554.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9867,
+        "dog": 0.0133
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1557.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.991,
+        "dog": 0.009
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.158.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.8236,
+        "dog": 0.1764
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1587.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9977,
+        "dog": 0.0023
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.159.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.8903,
+        "dog": 0.1097
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1602.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9398,
+        "dog": 0.0602
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1623.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9877,
+        "dog": 0.0123
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.163.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9776,
+        "dog": 0.0224
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.1632.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9688,
+        "dog": 0.0312
+      },
+      "correct": true
+    },
+    {
+      "file": "cat.164.jpg",
+      "true_label": "cat",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.4645,
+        "dog": 0.5355
+      },
+      "correct": false
+    },
+    {
+      "file": "cat.1643.jpg",
+      "true_label": "cat",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.8601,
+        "dog": 0.1399
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.100.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0526,
+        "dog": 0.9474
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1006.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0369,
+        "dog": 0.9631
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1033.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0103,
+        "dog": 0.9897
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1035.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.003,
+        "dog": 0.997
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1037.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1999,
+        "dog": 0.8001
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1038.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.7152,
+        "dog": 0.2848
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.104.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0148,
+        "dog": 0.9852
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1041.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.7265,
+        "dog": 0.2735
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.1044.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.3677,
+        "dog": 0.6323
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1047.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0508,
+        "dog": 0.9492
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1050.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.756,
+        "dog": 0.244
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.1052.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0547,
+        "dog": 0.9453
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1063.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.3083,
+        "dog": 0.6917
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1076.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1152,
+        "dog": 0.8848
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1077.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.6251,
+        "dog": 0.3749
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.1080.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0465,
+        "dog": 0.9535
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1110.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.4577,
+        "dog": 0.5423
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1114.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1792,
+        "dog": 0.8208
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.112.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1772,
+        "dog": 0.8228
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1122.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0329,
+        "dog": 0.9671
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1135.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0062,
+        "dog": 0.9938
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1163.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.5877,
+        "dog": 0.4123
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.117.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.012,
+        "dog": 0.988
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1173.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0505,
+        "dog": 0.9495
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1180.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.3524,
+        "dog": 0.6476
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.119.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0119,
+        "dog": 0.9881
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1196.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.5883,
+        "dog": 0.4117
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.1225.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1103,
+        "dog": 0.8897
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1228.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0018,
+        "dog": 0.9982
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1246.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.8877,
+        "dog": 0.1123
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.1262.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1176,
+        "dog": 0.8824
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1264.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1205,
+        "dog": 0.8795
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1269.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9135,
+        "dog": 0.0865
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.1277.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0131,
+        "dog": 0.9869
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1278.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.021,
+        "dog": 0.979
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1283.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0699,
+        "dog": 0.9301
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1286.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0699,
+        "dog": 0.9301
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1288.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1687,
+        "dog": 0.8313
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1292.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.243,
+        "dog": 0.757
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1293.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1051,
+        "dog": 0.8949
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1297.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0055,
+        "dog": 0.9945
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1305.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0011,
+        "dog": 0.9989
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1306.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0021,
+        "dog": 0.9979
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1313.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1138,
+        "dog": 0.8862
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1316.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0178,
+        "dog": 0.9822
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1318.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0124,
+        "dog": 0.9876
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.132.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0021,
+        "dog": 0.9979
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1321.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.027,
+        "dog": 0.973
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1323.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1267,
+        "dog": 0.8733
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1333.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1392,
+        "dog": 0.8608
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1338.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.2122,
+        "dog": 0.7878
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1340.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0332,
+        "dog": 0.9668
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1374.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.6347,
+        "dog": 0.3653
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.1383.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1759,
+        "dog": 0.8241
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.14.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0036,
+        "dog": 0.9964
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.140.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.3777,
+        "dog": 0.6223
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1411.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.4685,
+        "dog": 0.5315
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1422.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.048,
+        "dog": 0.952
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1433.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0418,
+        "dog": 0.9582
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.145.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0547,
+        "dog": 0.9453
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1463.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.2014,
+        "dog": 0.7986
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1467.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0427,
+        "dog": 0.9573
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1472.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0047,
+        "dog": 0.9953
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.148.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.2775,
+        "dog": 0.7225
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1483.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0463,
+        "dog": 0.9537
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1497.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.7944,
+        "dog": 0.2056
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.1500.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.012,
+        "dog": 0.988
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1502.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.2422,
+        "dog": 0.7578
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1506.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1611,
+        "dog": 0.8389
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1507.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0986,
+        "dog": 0.9014
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1514.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0082,
+        "dog": 0.9918
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.152.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.6818,
+        "dog": 0.3182
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.1531.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0228,
+        "dog": 0.9772
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1535.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0015,
+        "dog": 0.9985
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1538.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.2054,
+        "dog": 0.7946
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.154.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.5161,
+        "dog": 0.4839
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.1540.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0177,
+        "dog": 0.9823
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1556.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.5911,
+        "dog": 0.4089
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.1562.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1234,
+        "dog": 0.8766
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1564.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.454,
+        "dog": 0.546
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1569.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0031,
+        "dog": 0.9969
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1574.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0023,
+        "dog": 0.9977
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1576.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1598,
+        "dog": 0.8402
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1590.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0484,
+        "dog": 0.9516
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1604.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0067,
+        "dog": 0.9933
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1607.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0061,
+        "dog": 0.9939
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1618.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.2882,
+        "dog": 0.7118
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1628.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0026,
+        "dog": 0.9974
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1632.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0688,
+        "dog": 0.9312
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1638.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1459,
+        "dog": 0.8541
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1640.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0147,
+        "dog": 0.9853
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1644.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0137,
+        "dog": 0.9863
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.165.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0284,
+        "dog": 0.9716
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1651.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.9609,
+        "dog": 0.0391
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.1664.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0415,
+        "dog": 0.9585
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1666.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.1066,
+        "dog": 0.8934
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1667.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.4747,
+        "dog": 0.5253
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1671.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.016,
+        "dog": 0.984
+      },
+      "correct": true
+    },
+    {
+      "file": "dog.1675.jpg",
+      "true_label": "dog",
+      "predicted_label": "cat",
+      "probabilities": {
+        "cat": 0.853,
+        "dog": 0.147
+      },
+      "correct": false
+    },
+    {
+      "file": "dog.1678.jpg",
+      "true_label": "dog",
+      "predicted_label": "dog",
+      "probabilities": {
+        "cat": 0.0044,
+        "dog": 0.9956
+      },
+      "correct": true
+    }
+  ]
+}

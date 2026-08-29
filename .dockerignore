@@ -1,0 +1,12 @@
+mlops/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+notebooks/
+mlruns/
+logs/
+.git/
+.dvc/

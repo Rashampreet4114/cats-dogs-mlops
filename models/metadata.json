@@ -1,0 +1,17 @@
+{
+  "run_id": "beb8f4c9d293425fa95432bdba6405cc",
+  "classes": [
+    "cat",
+    "dog"
+  ],
+  "img_size": 224,
+  "test_accuracy": 0.9002356637863315,
+  "test_loss": 0.23673944251329432,
+  "test_auc": 0.9717744921383259,
+  "test_avg_precision": 0.9720340263889111,
+  "epochs": 16,
+  "stopped_epoch": 16,
+  "batch_size": 32,
+  "lr": 0.001,
+  "weight_decay": 5e-05
+}

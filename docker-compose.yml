@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    image: cats-dogs-api:local
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./logs:/app/logs
+      - ./models:/app/models:ro
+    restart: unless-stopped

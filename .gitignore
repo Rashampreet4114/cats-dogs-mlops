@@ -1,0 +1,25 @@
+# venv (named 'mlops' per project requirement)
+mlops/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data (DVC-tracked, not committed directly to git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# MLflow local tracking store
+mlruns/
+mlartifacts/
+
+# Logs
+logs/*.log
+
+# OS
+.DS_Store
