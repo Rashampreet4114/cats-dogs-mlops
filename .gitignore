@@ -8,11 +8,7 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
-# Data (DVC-tracked, not committed directly to git)
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+# Data (tracked via DVC instead - see data/.gitignore, auto-managed by `dvc add`)
 
 # MLflow local tracking store
 mlruns/
