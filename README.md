@@ -329,16 +329,45 @@ logs/                 api.log (request/response logging)
 Dockerfile, docker-compose.yml, requirements*.txt, Makefile
 ```
 
-## What's next (not yet done — deliberately deferred)
+## CI/CD
 
-Git (`Rashampreet4114/cats-dogs-mlops`) and DVC (local remote at `../dvc-storage`) are
-now set up — see above. Remaining assignment pieces to layer on top:
+The full pipeline is live at `.github/workflows/ci-cd.yml` on
+[github.com/Rashampreet4114/cats-dogs-mlops](https://github.com/Rashampreet4114/cats-dogs-mlops)
+(private repo — see note on visibility below):
 
-- GitHub Actions CI: run `pytest`, build the Docker image, push to GHCR
-- A self-hosted GitHub Actions runner on this machine so a push to `main` can
-  actually redeploy the local Docker Compose service (real, free CD to a
-  non-public target) + automated smoke test
-- `/metrics` + `logs/api.log` are already the monitoring story; nothing else needed there
+- **`test`** (every push/PR, GitHub-hosted runner): checkout → install deps → `pytest`
+- **`build`** (push/PR, GitHub-hosted runner): builds a multi-arch (amd64+arm64) Docker
+  image; pushes to `ghcr.io/rashampreet4114/cats-dogs-mlops` (`:latest` + `:<sha>`) only
+  on a push to `main`
+- **`deploy`** (push to `main` only, **self-hosted runner** = this laptop): pulls the
+  new image from GHCR, redeploys via `docker compose`, then runs
+  `scripts/smoke_test.sh` — the job (and pipeline) fails if the smoke test fails
 
-Ask to continue and this README will be extended with those steps before you record
-the demo / package the submission zip.
+**Why self-hosted, and why it's safe**: Docker Compose deploys to this machine, not a
+public server, so GitHub's cloud runners can't reach it to redeploy - a self-hosted
+runner registered on this laptop is the only free way to make "push to `main` -> auto
+redeploy" genuinely automatic. Self-hosted runners on a *public* repo are risky (a
+fork's pull request could execute arbitrary code on the runner), so this repo is kept
+**private**, and independently the `deploy` job is gated to `if: github.ref ==
+'refs/heads/main' && github.event_name == 'push'` — never `pull_request` — so it could
+never be reached by a fork's PR even if visibility changed later.
+
+To run the runner yourself: register it once at
+`Settings -> Actions -> Runners -> New self-hosted runner` on the repo, then from the
+extracted runner folder:
+
+```bash
+./run.sh
+```
+
+Leave that terminal open while you want CD to be live; `Ctrl+C` stops it (and the
+runner simply won't pick up new `deploy` jobs until it's running again — nothing else
+is affected).
+
+## What's next
+
+All 5 assignment modules (M1-M5) are implemented and verified end-to-end. Remaining
+work is packaging, not building:
+
+- Package the submission zip (source, DVC/CI-CD/Docker configs, trained model artifacts)
+- Record the <5 minute demo video (code change -> CI -> CD -> deployed prediction)
