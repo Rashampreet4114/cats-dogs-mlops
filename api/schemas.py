@@ -14,3 +14,8 @@ class Probabilities(BaseModel):
 class PredictResponse(BaseModel):
     label: str
     probabilities: Probabilities
+
+
+class VersionResponse(BaseModel):
+    version: str
+    model_loaded: bool

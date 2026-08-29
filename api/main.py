@@ -9,8 +9,10 @@ from fastapi import FastAPI, File, HTTPException, Request, UploadFile
 from fastapi.responses import Response
 from prometheus_client import CONTENT_TYPE_LATEST, Counter, Histogram, generate_latest
 
-from api.schemas import HealthResponse, PredictResponse
+from api.schemas import HealthResponse, PredictResponse, VersionResponse
 from src.predict import load_model, predict_bytes
+
+APP_VERSION = "1.1.0"
 
 ROOT = Path(__file__).resolve().parent.parent
 MODEL_PATH = os.environ.get("MODEL_PATH", str(ROOT / "models" / "model.pt"))
@@ -72,6 +74,11 @@ async def log_and_measure(request: Request, call_next):
 @app.get("/health", response_model=HealthResponse)
 def health():
     return HealthResponse(status="ok", model_loaded=_model is not None)
+
+
+@app.get("/version", response_model=VersionResponse)
+def version():
+    return VersionResponse(version=APP_VERSION, model_loaded=_model is not None)
 
 
 @app.get("/metrics")

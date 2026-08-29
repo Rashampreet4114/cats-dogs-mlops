@@ -32,6 +32,16 @@ def test_health_endpoint(tmp_path, monkeypatch):
         assert body["model_loaded"] is True
 
 
+def test_version_endpoint(tmp_path, monkeypatch):
+    app = _make_app(tmp_path, monkeypatch)
+    with TestClient(app) as client:
+        response = client.get("/version")
+        assert response.status_code == 200
+        body = response.json()
+        assert body["version"] == api_main.APP_VERSION
+        assert body["model_loaded"] is True
+
+
 def test_predict_endpoint(tmp_path, monkeypatch):
     app = _make_app(tmp_path, monkeypatch)
     with TestClient(app) as client:
