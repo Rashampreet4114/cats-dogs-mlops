@@ -1,7 +1,7 @@
 services:
   api:
     build: .
-    image: cats-dogs-api:local
+    image: ${IMAGE:-cats-dogs-api:local}
     ports:
       - "8000:8000"
     volumes:

@@ -52,3 +52,30 @@ jobs:
           tags: |
             ${{ env.IMAGE_NAME }}:latest
             ${{ env.IMAGE_NAME }}:${{ github.sha }}
+
+  # Runs on a self-hosted runner (this machine) since the Docker Compose deploy
+  # target is local, not a publicly reachable server. Gated to `push` on `main`
+  # only - never `pull_request` - so a fork's PR can never execute anything here,
+  # even if the repo were ever made public again.
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: [self-hosted]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set lowercase image name (GHCR requires lowercase repo paths)
+        run: echo "IMAGE=ghcr.io/$(echo '${{ github.repository }}' | tr '[:upper:]' '[:lower:]'):latest" >> "$GITHUB_ENV"
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull image and redeploy via Docker Compose
+        run: PULL_FROM_REGISTRY=true IMAGE="$IMAGE" bash scripts/deploy.sh
+
+      - name: Post-deploy smoke test
+        run: bash scripts/smoke_test.sh http://localhost:8000

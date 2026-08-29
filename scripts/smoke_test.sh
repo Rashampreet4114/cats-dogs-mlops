@@ -21,13 +21,19 @@ fi
 echo "OK: /health"
 
 if [ -z "$SAMPLE_IMAGE" ]; then
-  # Fall back to any image under data/processed/test if one exists.
+  # Prefer a real image from the (DVC-tracked) processed test set if it's present
+  # locally, but fall back to the small committed fixture - this keeps the predict
+  # check mandatory even in a fresh CD checkout that hasn't run `dvc pull`.
   SAMPLE_IMAGE=$(find data/processed/test -type f \( -iname "*.jpg" -o -iname "*.png" \) 2>/dev/null | head -n 1 || true)
 fi
 
 if [ -z "$SAMPLE_IMAGE" ] || [ ! -f "$SAMPLE_IMAGE" ]; then
-  echo "WARN: no sample image found to smoke-test /predict (skipping predict check)"
-  exit 0
+  SAMPLE_IMAGE="tests/fixtures/sample_cat.jpg"
+fi
+
+if [ ! -f "$SAMPLE_IMAGE" ]; then
+  echo "FAIL: no sample image available (checked data/processed/test and tests/fixtures/)"
+  exit 1
 fi
 
 echo "Checking ${API_URL}/predict with ${SAMPLE_IMAGE} ..."
