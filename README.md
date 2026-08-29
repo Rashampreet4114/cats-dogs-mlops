@@ -134,6 +134,34 @@ augmentation (random flip/rotation/color-jitter for the train split) are applied
 **✅ You should see**: a printed dict like `{'train': 2400, 'val': 300, 'test': 300}`.
 Confirm visually:
 
+### Dataset versioning with DVC
+
+`data/raw` and `data/processed` are tracked with [DVC](https://dvc.org) instead of
+being committed to git directly — git only stores small `.dvc` pointer files
+(`data/raw.dvc`, `data/processed.dvc`, a hash + file count), while the actual images
+live in a **local, no-cost DVC remote** at `../dvc-storage` (a sibling folder outside
+this repo, configured in `.dvc/config`).
+
+After downloading/splitting data yourself, re-track it and push to the local remote:
+
+```bash
+dvc add data/raw data/processed
+dvc push
+git add data/raw.dvc data/processed.dvc
+git commit -m "Update dataset"
+```
+
+To reproduce someone else's checkout (or restore data after a fresh clone) instead of
+re-downloading from Kaggle:
+
+```bash
+dvc pull   # restores data/raw and data/processed from ../dvc-storage using the .dvc files
+```
+
+**✅ You should see**: `dvc push`/`dvc pull` reporting a file count (e.g.
+`9974 files pushed`), and `git status` showing only the small `.dvc` files changed —
+never the actual image files.
+
 ```bash
 find data/processed -mindepth 2 -maxdepth 2 -type d | sort
 # should list data/processed/train/cat, .../train/dog, .../val/cat, .../val/dog, .../test/cat, .../test/dog
@@ -303,10 +331,9 @@ Dockerfile, docker-compose.yml, requirements*.txt, Makefile
 
 ## What's next (not yet done — deliberately deferred)
 
-Once you've confirmed the steps above work end-to-end on your machine, the
-remaining assignment pieces to layer on top are:
+Git (`Rashampreet4114/cats-dogs-mlops`) and DVC (local remote at `../dvc-storage`) are
+now set up — see above. Remaining assignment pieces to layer on top:
 
-- `git init` + commit, DVC init with a local (no-cost) remote for `data/`
 - GitHub Actions CI: run `pytest`, build the Docker image, push to GHCR
 - A self-hosted GitHub Actions runner on this machine so a push to `main` can
   actually redeploy the local Docker Compose service (real, free CD to a
